@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GuessWord</string>
+    <string name="title">What is this!?</string>
+    <string name="btn_submit">Guess!</string>
+    <string name="result_word_bad">This is not a correct word! Maybe try letters?</string>
+    <string name="result_word_ok">Good job! You guessed!</string>
+    <string name="result_letter_bad">There is no such letter in this word!</string>
+    <string name="result_letter_ok">Correct letter!</string>
+    <string name="input_hint">Enter a letter or a word</string>
+    <string name="result_total_bad">You have to enter a letter or a word in order to guess!</string>
+    <string name="menu_about">About app</string>
+    <string name="menu_restart">Restart game</string>
+    <string name="about">Rules are easy: Just guess!</string>
+    <string name="dialog_close">Close</string>
+</resources>
