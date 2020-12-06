@@ -76,17 +76,19 @@ public class MainActivity extends AppCompatActivity {
     private void setWords(){
         // Встановимо різні слова та підказки для рівнів гри
         words.add("knure");
+        words.add("dog");
         words.add("flower");
-        words.add("triethylborane");
-        words.add("proxima");
         words.add("bird");
-        words.add("flyer");
-        hints.add("Abbreviation of university where you study at.");
+        words.add("proxima");
+        words.add("mediator");
+        words.add("interpolation");
+        hints.add("An abbreviation of university where you study at.");
+        hints.add("It is the best human's friend");
         hints.add("A reproductive structure of a certain kind of plants.");
-        hints.add("Toxic chemical. Widely used in rocketry and aircraft engineering, but is not a fuel.");
-        hints.add("Second closest to the Earth star.");
         hints.add("A certain group of animals, vast majority of which are capable of sustaining themselves in the air.");
-        hints.add("The first ever motorized, heavier-than-air piece of wood and cloth that lifter freely from the ground.");
+        hints.add("Second closest to the Earth star.");
+        hints.add("A behavioral pattern, which defines an object that encapsulates how a set of objects interact");
+        hints.add("A process of evaluating a string literal containing one/more placeholders, yielding a result in which the placeholders are replaced with corresponding values");
     }
     // встановимо слово, яке потрібно відгадати
     private void setWord(){
