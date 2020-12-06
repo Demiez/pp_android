@@ -20,15 +20,12 @@ public class SimpleDatabase extends SQLiteOpenHelper {
         super(context,DATABASE_NAME,null,DATABASE_VERSION);
     }
 
+    // Для пріоритизації використаємо id
     private static final String KEY_ID = "id";
     private static final String KEY_TITLE = "title";
     private static final String KEY_CONTENT = "content";
     private static final String KEY_DATE = "date";
     private static final String KEY_TIME = "time";
-
-
-
-
 
     // створюємо таблиці
     @Override
